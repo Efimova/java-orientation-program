@@ -1,0 +1,965 @@
+Compiled from "Outer.java"
+public class com.epam.efimova.basic.Outer extends java.lang.Object
+  SourceFile: "Outer.java"
+  InnerClass:
+   #50= #29 of #49; //Inner=class com/epam/efimova/basic/Outer$Inner of class com/epam/efimova/basic/Outer
+   #52= #39 of #49; //Static=class com/epam/efimova/basic/Outer$Static of class com/epam/efimova/basic/Outer
+   #41; //class com/epam/efimova/basic/Outer$1
+   #53= #36; //LocalNested=class com/epam/efimova/basic/Outer$1LocalNested
+   public #105= #43 of #155; //MyClass=class com/epam/efimova/basic/IMyInter$MyClass of class com/epam/efimova/basic/IMyInter
+   #108= #45 of #157; //MyStaticClass=class com/epam/efimova/basic/MyEnum$MyStaticClass of class com/epam/efimova/basic/MyEnum
+  minor version: 0
+  major version: 52
+  Constant pool:
+const #1 = Method       #19.#113;       //  java/lang/Object."<init>":()V
+const #2 = String       #114;   //  str1
+const #3 = Field        #49.#115;       //  com/epam/efimova/basic/Outer.STR1:Ljava/lang/String;
+const #4 = String       #116;   //  str5
+const #5 = Field        #49.#117;       //  com/epam/efimova/basic/Outer.STR5:Ljava/lang/String;
+const #6 = String       #118;   //  str4
+const #7 = Field        #49.#119;       //  com/epam/efimova/basic/Outer.STR4:Ljava/lang/String;
+const #8 = Method       #49.#120;       //  com/epam/efimova/basic/Outer.method:()Ljava/lang/Object;
+const #9 = Method       #19.#121;       //  java/lang/Object.getClass:()Ljava/lang/Class;
+const #10 = Method      #122.#123;      //  java/lang/Class.getDeclaredConstructors:()[Ljava/lang/reflect/Constructor;
+const #11 = Field       #124.#125;      //  java/lang/System.out:Ljava/io/PrintStream;
+const #12 = class       #126;   //  java/lang/StringBuilder
+const #13 = Method      #12.#113;       //  java/lang/StringBuilder."<init>":()V
+const #14 = String      #127;   //  CONSTRUCTOR
+const #15 = Method      #12.#128;       //  java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+const #16 = Method      #129.#130;      //  java/lang/reflect/Constructor.getName:()Ljava/lang/String;
+const #17 = Method      #12.#131;       //  java/lang/StringBuilder.toString:()Ljava/lang/String;
+const #18 = Method      #132.#133;      //  java/io/PrintStream.println:(Ljava/lang/String;)V
+const #19 = class       #134;   //  java/lang/Object
+const #20 = Method      #129.#135;      //  java/lang/reflect/Constructor.newInstance:([Ljava/lang/Object;)Ljava/lang/Object;
+const #21 = Method      #132.#136;      //  java/io/PrintStream.println:(Ljava/lang/Object;)V
+const #22 = class       #137;   //  java/lang/InstantiationException
+const #23 = Method      #22.#138;       //  java/lang/InstantiationException.printStackTrace:()V
+const #24 = class       #139;   //  java/lang/IllegalAccessException
+const #25 = Method      #24.#138;       //  java/lang/IllegalAccessException.printStackTrace:()V
+const #26 = class       #140;   //  java/lang/reflect/InvocationTargetException
+const #27 = Method      #26.#138;       //  java/lang/reflect/InvocationTargetException.printStackTrace:()V
+const #28 = String      #141;   //  Outer static method1
+const #29 = class       #142;   //  com/epam/efimova/basic/Outer$Inner
+const #30 = Method      #29.#143;       //  com/epam/efimova/basic/Outer$Inner."<init>":(Lcom/epam/efimova/basic/Outer;Lcom/epam/efimova/basic/Outer$1;)V
+const #31 = String      #144;   //  s
+const #32 = Method      #29.#145;       //  com/epam/efimova/basic/Outer$Inner.access$102:(Lcom/epam/efimova/basic/Outer$Inner;Ljava/lang/String;)Ljava/lang/String;
+const #33 = String      #146;   //  Outer method2
+const #34 = Method      #29.#147;       //  com/epam/efimova/basic/Outer$Inner.access$100:(Lcom/epam/efimova/basic/Outer$Inner;)Ljava/lang/String;
+const #35 = Method      #148.#149;      //  java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+const #36 = class       #150;   //  com/epam/efimova/basic/Outer$1LocalNested
+const #37 = Method      #36.#151;       //  com/epam/efimova/basic/Outer$1LocalNested."<init>":(Lcom/epam/efimova/basic/Outer;Ljava/lang/Integer;)V
+const #38 = Method      #36.#152;       //  com/epam/efimova/basic/Outer$1LocalNested.m:(Ljava/lang/Integer;)V
+const #39 = class       #153;   //  com/epam/efimova/basic/Outer$Static
+const #40 = Method      #39.#113;       //  com/epam/efimova/basic/Outer$Static."<init>":()V
+const #41 = class       #154;   //  com/epam/efimova/basic/Outer$1
+const #42 = Method      #41.#113;       //  com/epam/efimova/basic/Outer$1."<init>":()V
+const #43 = class       #156;   //  com/epam/efimova/basic/IMyInter$MyClass
+const #44 = Method      #43.#113;       //  com/epam/efimova/basic/IMyInter$MyClass."<init>":()V
+const #45 = class       #158;   //  com/epam/efimova/basic/MyEnum$MyStaticClass
+const #46 = Method      #45.#113;       //  com/epam/efimova/basic/MyEnum$MyStaticClass."<init>":()V
+const #47 = String      #159;   //  str2
+const #48 = Field       #49.#160;       //  com/epam/efimova/basic/Outer.STR2:Ljava/lang/String;
+const #49 = class       #161;   //  com/epam/efimova/basic/Outer
+const #50 = Asciz       Inner;
+const #51 = Asciz       InnerClasses;
+const #52 = Asciz       Static;
+const #53 = Asciz       LocalNested;
+const #54 = Asciz       STR1;
+const #55 = Asciz       Ljava/lang/String;;
+const #56 = Asciz       STR2;
+const #57 = Asciz       STR3;
+const #58 = Asciz       ConstantValue;
+const #59 = String      #162;   //  str3
+const #60 = Asciz       STR5;
+const #61 = Asciz       STR4;
+const #62 = Asciz       <init>;
+const #63 = Asciz       ()V;
+const #64 = Asciz       Code;
+const #65 = Asciz       LineNumberTable;
+const #66 = Asciz       LocalVariableTable;
+const #67 = Asciz       this;
+const #68 = Asciz       Lcom/epam/efimova/basic/Outer;;
+const #69 = Asciz       methodnew;
+const #70 = Asciz       e;
+const #71 = Asciz       Ljava/lang/InstantiationException;;
+const #72 = Asciz       Ljava/lang/IllegalAccessException;;
+const #73 = Asciz       Ljava/lang/reflect/InvocationTargetException;;
+const #74 = Asciz       o;
+const #75 = Asciz       Ljava/lang/Object;;
+const #76 = Asciz       constructor;
+const #77 = Asciz       Ljava/lang/reflect/Constructor;;
+const #78 = Asciz       LocalVariableTypeTable;
+const #79 = Asciz       Ljava/lang/reflect/Constructor<*>;;
+const #80 = Asciz       StackMapTable;
+const #81 = class       #161;   //  com/epam/efimova/basic/Outer
+const #82 = class       #134;   //  java/lang/Object
+const #83 = class       #163;   //  java/lang/reflect/Constructor
+const #84 = class       #137;   //  java/lang/InstantiationException
+const #85 = class       #139;   //  java/lang/IllegalAccessException
+const #86 = class       #140;   //  java/lang/reflect/InvocationTargetException
+const #87 = Asciz       metod1;
+const #88 = Asciz       metod2;
+const #89 = Asciz       method;
+const #90 = Asciz       ()Ljava/lang/Object;;
+const #91 = Asciz       i1;
+const #92 = Asciz       Ljava/lang/Integer;;
+const #93 = Asciz       i2;
+const #94 = Asciz       localNested;
+const #95 = Asciz       Lcom/epam/efimova/basic/Outer$1LocalNested;;
+const #96 = Asciz       main;
+const #97 = Asciz       ([Ljava/lang/String;)V;
+const #98 = Asciz       args;
+const #99 = Asciz       [Ljava/lang/String;;
+const #100 = Asciz      aStatic;
+const #101 = Asciz      Lcom/epam/efimova/basic/Outer$Static;;
+const #102 = Asciz      iMyInter;
+const #103 = Asciz      Lcom/epam/efimova/basic/IMyInter;;
+const #104 = Asciz      myClass;
+const #105 = Asciz      MyClass;
+const #106 = Asciz      Lcom/epam/efimova/basic/IMyInter$MyClass;;
+const #107 = Asciz      myEnum;
+const #108 = Asciz      MyStaticClass;
+const #109 = Asciz      Lcom/epam/efimova/basic/MyEnum$MyStaticClass;;
+const #110 = Asciz      <clinit>;
+const #111 = Asciz      SourceFile;
+const #112 = Asciz      Outer.java;
+const #113 = NameAndType        #62:#63;//  "<init>":()V
+const #114 = Asciz      str1;
+const #115 = NameAndType        #54:#55;//  STR1:Ljava/lang/String;
+const #116 = Asciz      str5;
+const #117 = NameAndType        #60:#55;//  STR5:Ljava/lang/String;
+const #118 = Asciz      str4;
+const #119 = NameAndType        #61:#55;//  STR4:Ljava/lang/String;
+const #120 = NameAndType        #89:#90;//  method:()Ljava/lang/Object;
+const #121 = NameAndType        #164:#165;//  getClass:()Ljava/lang/Class;
+const #122 = class      #166;   //  java/lang/Class
+const #123 = NameAndType        #167:#168;//  getDeclaredConstructors:()[Ljava/lang/reflect/Constructor;
+const #124 = class      #169;   //  java/lang/System
+const #125 = NameAndType        #170:#171;//  out:Ljava/io/PrintStream;
+const #126 = Asciz      java/lang/StringBuilder;
+const #127 = Asciz      CONSTRUCTOR;
+const #128 = NameAndType        #172:#173;//  append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+const #129 = class      #163;   //  java/lang/reflect/Constructor
+const #130 = NameAndType        #174:#175;//  getName:()Ljava/lang/String;
+const #131 = NameAndType        #176:#175;//  toString:()Ljava/lang/String;
+const #132 = class      #177;   //  java/io/PrintStream
+const #133 = NameAndType        #178:#179;//  println:(Ljava/lang/String;)V
+const #134 = Asciz      java/lang/Object;
+const #135 = NameAndType        #180:#181;//  newInstance:([Ljava/lang/Object;)Ljava/lang/Object;
+const #136 = NameAndType        #178:#182;//  println:(Ljava/lang/Object;)V
+const #137 = Asciz      java/lang/InstantiationException;
+const #138 = NameAndType        #183:#63;//  printStackTrace:()V
+const #139 = Asciz      java/lang/IllegalAccessException;
+const #140 = Asciz      java/lang/reflect/InvocationTargetException;
+const #141 = Asciz      Outer static method1;
+const #142 = Asciz      com/epam/efimova/basic/Outer$Inner;
+const #143 = NameAndType        #62:#184;//  "<init>":(Lcom/epam/efimova/basic/Outer;Lcom/epam/efimova/basic/Outer$1;)V
+const #144 = Asciz      s;
+const #145 = NameAndType        #185:#186;//  access$102:(Lcom/epam/efimova/basic/Outer$Inner;Ljava/lang/String;)Ljava/lang/String;
+const #146 = Asciz      Outer method2;
+const #147 = NameAndType        #187:#188;//  access$100:(Lcom/epam/efimova/basic/Outer$Inner;)Ljava/lang/String;
+const #148 = class      #189;   //  java/lang/Integer
+const #149 = NameAndType        #190:#191;//  valueOf:(I)Ljava/lang/Integer;
+const #150 = Asciz      com/epam/efimova/basic/Outer$1LocalNested;
+const #151 = NameAndType        #62:#192;//  "<init>":(Lcom/epam/efimova/basic/Outer;Ljava/lang/Integer;)V
+const #152 = NameAndType        #193:#194;//  m:(Ljava/lang/Integer;)V
+const #153 = Asciz      com/epam/efimova/basic/Outer$Static;
+const #154 = Asciz      com/epam/efimova/basic/Outer$1;
+const #155 = class      #195;   //  com/epam/efimova/basic/IMyInter
+const #156 = Asciz      com/epam/efimova/basic/IMyInter$MyClass;
+const #157 = class      #196;   //  com/epam/efimova/basic/MyEnum
+const #158 = Asciz      com/epam/efimova/basic/MyEnum$MyStaticClass;
+const #159 = Asciz      str2;
+const #160 = NameAndType        #56:#55;//  STR2:Ljava/lang/String;
+const #161 = Asciz      com/epam/efimova/basic/Outer;
+const #162 = Asciz      str3;
+const #163 = Asciz      java/lang/reflect/Constructor;
+const #164 = Asciz      getClass;
+const #165 = Asciz      ()Ljava/lang/Class;;
+const #166 = Asciz      java/lang/Class;
+const #167 = Asciz      getDeclaredConstructors;
+const #168 = Asciz      ()[Ljava/lang/reflect/Constructor;;
+const #169 = Asciz      java/lang/System;
+const #170 = Asciz      out;
+const #171 = Asciz      Ljava/io/PrintStream;;
+const #172 = Asciz      append;
+const #173 = Asciz      (Ljava/lang/String;)Ljava/lang/StringBuilder;;
+const #174 = Asciz      getName;
+const #175 = Asciz      ()Ljava/lang/String;;
+const #176 = Asciz      toString;
+const #177 = Asciz      java/io/PrintStream;
+const #178 = Asciz      println;
+const #179 = Asciz      (Ljava/lang/String;)V;
+const #180 = Asciz      newInstance;
+const #181 = Asciz      ([Ljava/lang/Object;)Ljava/lang/Object;;
+const #182 = Asciz      (Ljava/lang/Object;)V;
+const #183 = Asciz      printStackTrace;
+const #184 = Asciz      (Lcom/epam/efimova/basic/Outer;Lcom/epam/efimova/basic/Outer$1;)V;
+const #185 = Asciz      access$102;
+const #186 = Asciz      (Lcom/epam/efimova/basic/Outer$Inner;Ljava/lang/String;)Ljava/lang/String;;
+const #187 = Asciz      access$100;
+const #188 = Asciz      (Lcom/epam/efimova/basic/Outer$Inner;)Ljava/lang/String;;
+const #189 = Asciz      java/lang/Integer;
+const #190 = Asciz      valueOf;
+const #191 = Asciz      (I)Ljava/lang/Integer;;
+const #192 = Asciz      (Lcom/epam/efimova/basic/Outer;Ljava/lang/Integer;)V;
+const #193 = Asciz      m;
+const #194 = Asciz      (Ljava/lang/Integer;)V;
+const #195 = Asciz      com/epam/efimova/basic/IMyInter;
+const #196 = Asciz      com/epam/efimova/basic/MyEnum;
+
+{
+public java.lang.String STR1;
+  Signature: Ljava/lang/String;
+
+
+public static java.lang.String STR2;
+  Signature: Ljava/lang/String;
+
+
+public static final java.lang.String STR3;
+  Signature: Ljava/lang/String;
+  Constant value: String str3
+
+public final java.lang.String STR5;
+  Signature: Ljava/lang/String;
+  Constant value: String str5
+
+public com.epam.efimova.basic.Outer();
+  Signature: ()V
+  Code:
+   Stack=2, Locals=1, Args_size=1
+   0:   aload_0
+   1:   invokespecial   #1; //Method java/lang/Object."<init>":()V
+   4:   aload_0
+   5:   ldc     #2; //String str1
+   7:   putfield        #3; //Field STR1:Ljava/lang/String;
+   10:  aload_0
+   11:  ldc     #4; //String str5
+   13:  putfield        #5; //Field STR5:Ljava/lang/String;
+   16:  aload_0
+   17:  ldc     #6; //String str4
+   19:  putfield        #7; //Field STR4:Ljava/lang/String;
+   22:  return
+  LineNumberTable:
+   line 8: 0
+   line 9: 4
+   line 12: 10
+   line 13: 16
+
+  LocalVariableTable:
+   Start  Length  Slot  Name   Signature
+   0      23      0    this       Lcom/epam/efimova/basic/Outer;
+
+
+void methodnew();
+  Signature: ()V
+  Code:
+   Stack=3, Locals=4, Args_size=1
+   0:   aload_0
+   1:   invokevirtual   #8; //Method method:()Ljava/lang/Object;
+   4:   astore_1
+   5:   aload_1
+   6:   invokevirtual   #9; //Method java/lang/Object.getClass:()Ljava/lang/Class;
+   9:   invokevirtual   #10; //Method java/lang/Class.getDeclaredConstructors:()[Ljava/lang/reflect/Constructor;
+   12:  iconst_0
+   13:  aaload
+   14:  astore_2
+   15:  getstatic       #11; //Field java/lang/System.out:Ljava/io/PrintStream;
+   18:  new     #12; //class java/lang/StringBuilder
+   21:  dup
+   22:  invokespecial   #13; //Method java/lang/StringBuilder."<init>":()V
+   25:  ldc     #14; //String CONSTRUCTOR
+   27:  invokevirtual   #15; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   30:  aload_2
+   31:  invokevirtual   #16; //Method java/lang/reflect/Constructor.getName:()Ljava/lang/String;
+   34:  invokevirtual   #15; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   37:  invokevirtual   #17; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+   40:  invokevirtual   #18; //Method java/io/PrintStream.println:(Ljava/lang/String;)V
+   43:  getstatic       #11; //Field java/lang/System.out:Ljava/io/PrintStream;
+   46:  aload_2
+   47:  iconst_0
+   48:  anewarray       #19; //class java/lang/Object
+   51:  invokevirtual   #20; //Method java/lang/reflect/Constructor.newInstance:([Ljava/lang/Object;)Ljava/lang/Object;
+   54:  invokevirtual   #21; //Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+   57:  goto    81
+   60:  astore_3
+   61:  aload_3
+   62:  invokevirtual   #23; //Method java/lang/InstantiationException.printStackTrace:()V
+   65:  goto    81
+   68:  astore_3
+   69:  aload_3
+   70:  invokevirtual   #25; //Method java/lang/IllegalAccessException.printStackTrace:()V
+   73:  goto    81
+   76:  astore_3
+   77:  aload_3
+   78:  invokevirtual   #27; //Method java/lang/reflect/InvocationTargetException.printStackTrace:()V
+   81:  return
+  Exception table:
+   from   to  target type
+    43    57    60   Class java/lang/InstantiationException
+
+    43    57    68   Class java/lang/IllegalAccessException
+
+    43    57    76   Class java/lang/reflect/InvocationTargetException
+
+  LineNumberTable:
+   line 27: 0
+   line 30: 5
+   line 31: 15
+   line 33: 43
+   line 40: 57
+   line 34: 60
+   line 35: 61
+   line 40: 65
+   line 36: 68
+   line 37: 69
+   line 40: 73
+   line 38: 76
+   line 39: 77
+   line 45: 81
+
+  LocalVariableTable:
+   Start  Length  Slot  Name   Signature
+   61      4      3    e       Ljava/lang/InstantiationException;
+   69      4      3    e       Ljava/lang/IllegalAccessException;
+   77      4      3    e       Ljava/lang/reflect/InvocationTargetException;
+   0      82      0    this       Lcom/epam/efimova/basic/Outer;
+   5      77      1    o       Ljava/lang/Object;
+   15      67      2    constructor       Ljava/lang/reflect/Constructor;
+
+  LocalVariableTypeTable: length = 0xC
+   00 01 00 0F 00 43 00 4C 00 4F 00 02
+  StackMapTable: number_of_entries = 4
+   frame_type = 255 /* full_frame */
+     offset_delta = 60
+     locals = [ class com/epam/efimova/basic/Outer, class java/lang/Object, class java/lang/reflect/Constructor ]
+     stack = [ class java/lang/InstantiationException ]
+   frame_type = 71 /* same_locals_1_stack_item */
+     stack = [ class java/lang/IllegalAccessException ]
+   frame_type = 71 /* same_locals_1_stack_item */
+     stack = [ class java/lang/reflect/InvocationTargetException ]
+   frame_type = 4 /* same */
+
+
+static void metod1();
+  Signature: ()V
+  Code:
+   Stack=2, Locals=0, Args_size=0
+   0:   getstatic       #11; //Field java/lang/System.out:Ljava/io/PrintStream;
+   3:   ldc     #28; //String Outer static method1
+   5:   invokevirtual   #18; //Method java/io/PrintStream.println:(Ljava/lang/String;)V
+   8:   return
+  LineNumberTable:
+   line 81: 0
+   line 82: 8
+
+
+void metod2();
+  Signature: ()V
+  Code:
+   Stack=6, Locals=1, Args_size=1
+   0:   new     #29; //class com/epam/efimova/basic/Outer$Inner
+   3:   dup
+   4:   aload_0
+   5:   aconst_null
+   6:   invokespecial   #30; //Method com/epam/efimova/basic/Outer$Inner."<init>":(Lcom/epam/efimova/basic/Outer;Lcom/epam/efimova/basic/Outer$1;)V
+   9:   ldc     #31; //String s
+   11:  invokestatic    #32; //Method com/epam/efimova/basic/Outer$Inner.access$102:(Lcom/epam/efimova/basic/Outer$Inner;Ljava/lang/String;)Ljava/lang/String;
+   14:  pop
+   15:  getstatic       #11; //Field java/lang/System.out:Ljava/io/PrintStream;
+   18:  new     #12; //class java/lang/StringBuilder
+   21:  dup
+   22:  invokespecial   #13; //Method java/lang/StringBuilder."<init>":()V
+   25:  ldc     #33; //String Outer method2
+   27:  invokevirtual   #15; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   30:  new     #29; //class com/epam/efimova/basic/Outer$Inner
+   33:  dup
+   34:  aload_0
+   35:  aconst_null
+   36:  invokespecial   #30; //Method com/epam/efimova/basic/Outer$Inner."<init>":(Lcom/epam/efimova/basic/Outer;Lcom/epam/efimova/basic/Outer$1;)V
+   39:  invokestatic    #34; //Method com/epam/efimova/basic/Outer$Inner.access$100:(Lcom/epam/efimova/basic/Outer$Inner;)Ljava/lang/String;
+   42:  invokevirtual   #15; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   45:  invokevirtual   #17; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+   48:  invokevirtual   #18; //Method java/io/PrintStream.println:(Ljava/lang/String;)V
+   51:  return
+  LineNumberTable:
+   line 85: 0
+   line 86: 15
+   line 87: 51
+
+  LocalVariableTable:
+   Start  Length  Slot  Name   Signature
+   0      52      0    this       Lcom/epam/efimova/basic/Outer;
+
+
+java.lang.Object method();
+  Signature: ()Ljava/lang/Object;
+  Code:
+   Stack=4, Locals=4, Args_size=1
+   0:   iconst_0
+   1:   invokestatic    #35; //Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+   4:   astore_1
+   5:   iconst_1
+   6:   invokestatic    #35; //Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+   9:   astore_2
+   10:  new     #36; //class com/epam/efimova/basic/Outer$1LocalNested
+   13:  dup
+   14:  aload_0
+   15:  aload_2
+   16:  invokespecial   #37; //Method com/epam/efimova/basic/Outer$1LocalNested."<init>":(Lcom/epam/efimova/basic/Outer;Ljava/lang/Integer;)V
+   19:  astore_3
+   20:  aload_3
+   21:  iconst_1
+   22:  invokestatic    #35; //Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+   25:  invokevirtual   #38; //Method com/epam/efimova/basic/Outer$1LocalNested.m:(Ljava/lang/Integer;)V
+   28:  aload_3
+   29:  areturn
+  LineNumberTable:
+   line 90: 0
+   line 91: 5
+   line 112: 10
+   line 113: 20
+   line 114: 28
+
+  LocalVariableTable:
+   Start  Length  Slot  Name   Signature
+   0      30      0    this       Lcom/epam/efimova/basic/Outer;
+   5      25      1    i1       Ljava/lang/Integer;
+   10      20      2    i2       Ljava/lang/Integer;
+   20      10      3    localNested       Lcom/epam/efimova/basic/Outer$1LocalNested;
+
+
+public static void main(java.lang.String[]);
+  Signature: ([Ljava/lang/String;)V
+  Code:
+   Stack=2, Locals=5, Args_size=1
+   0:   new     #39; //class com/epam/efimova/basic/Outer$Static
+   3:   dup
+   4:   invokespecial   #40; //Method com/epam/efimova/basic/Outer$Static."<init>":()V
+   7:   astore_1
+   8:   new     #41; //class com/epam/efimova/basic/Outer$1
+   11:  dup
+   12:  invokespecial   #42; //Method com/epam/efimova/basic/Outer$1."<init>":()V
+   15:  astore_2
+   16:  new     #43; //class com/epam/efimova/basic/IMyInter$MyClass
+   19:  dup
+   20:  invokespecial   #44; //Method com/epam/efimova/basic/IMyInter$MyClass."<init>":()V
+   23:  astore_3
+   24:  new     #45; //class com/epam/efimova/basic/MyEnum$MyStaticClass
+   27:  dup
+   28:  invokespecial   #46; //Method com/epam/efimova/basic/MyEnum$MyStaticClass."<init>":()V
+   31:  astore  4
+   33:  return
+  LineNumberTable:
+   line 119: 0
+   line 124: 8
+   line 135: 16
+   line 136: 24
+   line 137: 33
+
+  LocalVariableTable:
+   Start  Length  Slot  Name   Signature
+   0      34      0    args       [Ljava/lang/String;
+   8      26      1    aStatic       Lcom/epam/efimova/basic/Outer$Static;
+   16      18      2    iMyInter       Lcom/epam/efimova/basic/IMyInter;
+   24      10      3    myClass       Lcom/epam/efimova/basic/IMyInter$MyClass;
+   33      1      4    myEnum       Lcom/epam/efimova/basic/MyEnum$MyStaticClass;
+
+
+static {};
+  Signature: ()V
+  Code:
+   Stack=1, Locals=0, Args_size=0
+   0:   ldc     #47; //String str2
+   2:   putstatic       #48; //Field STR2:Ljava/lang/String;
+   5:   return
+  LineNumberTable:
+   line 10: 0
+
+
+}
+
+
+D:\trainings\po\target\classes\com\epam\efimova\basic>javap -c -s -verbose Outer
+Compiled from "Outer.java"
+public class com.epam.efimova.basic.Outer extends java.lang.Object
+  SourceFile: "Outer.java"
+  InnerClass:
+   #50= #29 of #49; //Inner=class com/epam/efimova/basic/Outer$Inner of class com/epam/efimova/basic/Outer
+   #52= #39 of #49; //Static=class com/epam/efimova/basic/Outer$Static of class com/epam/efimova/basic/Outer
+   #41; //class com/epam/efimova/basic/Outer$1
+   #53= #36; //LocalNested=class com/epam/efimova/basic/Outer$1LocalNested
+   public #105= #43 of #155; //MyClass=class com/epam/efimova/basic/IMyInter$MyClass of class com/epam/efimova/basic/IMyInter
+   #108= #45 of #157; //MyStaticClass=class com/epam/efimova/basic/MyEnum$MyStaticClass of class com/epam/efimova/basic/MyEnum
+  minor version: 0
+  major version: 52
+  Constant pool:
+const #1 = Method       #19.#113;       //  java/lang/Object."<init>":()V
+const #2 = String       #114;   //  str1
+const #3 = Field        #49.#115;       //  com/epam/efimova/basic/Outer.STR1:Ljava/lang/String;
+const #4 = String       #116;   //  str5
+const #5 = Field        #49.#117;       //  com/epam/efimova/basic/Outer.STR5:Ljava/lang/String;
+const #6 = String       #118;   //  str4
+const #7 = Field        #49.#119;       //  com/epam/efimova/basic/Outer.STR4:Ljava/lang/String;
+const #8 = Method       #49.#120;       //  com/epam/efimova/basic/Outer.method:()Ljava/lang/Object;
+const #9 = Method       #19.#121;       //  java/lang/Object.getClass:()Ljava/lang/Class;
+const #10 = Method      #122.#123;      //  java/lang/Class.getDeclaredConstructors:()[Ljava/lang/reflect/Constructor;
+const #11 = Field       #124.#125;      //  java/lang/System.out:Ljava/io/PrintStream;
+const #12 = class       #126;   //  java/lang/StringBuilder
+const #13 = Method      #12.#113;       //  java/lang/StringBuilder."<init>":()V
+const #14 = String      #127;   //  CONSTRUCTOR
+const #15 = Method      #12.#128;       //  java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+const #16 = Method      #129.#130;      //  java/lang/reflect/Constructor.getName:()Ljava/lang/String;
+const #17 = Method      #12.#131;       //  java/lang/StringBuilder.toString:()Ljava/lang/String;
+const #18 = Method      #132.#133;      //  java/io/PrintStream.println:(Ljava/lang/String;)V
+const #19 = class       #134;   //  java/lang/Object
+const #20 = Method      #129.#135;      //  java/lang/reflect/Constructor.newInstance:([Ljava/lang/Object;)Ljava/lang/Object;
+const #21 = Method      #132.#136;      //  java/io/PrintStream.println:(Ljava/lang/Object;)V
+const #22 = class       #137;   //  java/lang/InstantiationException
+const #23 = Method      #22.#138;       //  java/lang/InstantiationException.printStackTrace:()V
+const #24 = class       #139;   //  java/lang/IllegalAccessException
+const #25 = Method      #24.#138;       //  java/lang/IllegalAccessException.printStackTrace:()V
+const #26 = class       #140;   //  java/lang/reflect/InvocationTargetException
+const #27 = Method      #26.#138;       //  java/lang/reflect/InvocationTargetException.printStackTrace:()V
+const #28 = String      #141;   //  Outer static method1
+const #29 = class       #142;   //  com/epam/efimova/basic/Outer$Inner
+const #30 = Method      #29.#143;       //  com/epam/efimova/basic/Outer$Inner."<init>":(Lcom/epam/efimova/basic/Outer;Lcom/epam/efimova/basic/Outer$1;)V
+const #31 = String      #144;   //  s
+const #32 = Method      #29.#145;       //  com/epam/efimova/basic/Outer$Inner.access$102:(Lcom/epam/efimova/basic/Outer$Inner;Ljava/lang/String;)Ljava/lang/String;
+const #33 = String      #146;   //  Outer method2
+const #34 = Method      #29.#147;       //  com/epam/efimova/basic/Outer$Inner.access$100:(Lcom/epam/efimova/basic/Outer$Inner;)Ljava/lang/String;
+const #35 = Method      #148.#149;      //  java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+const #36 = class       #150;   //  com/epam/efimova/basic/Outer$1LocalNested
+const #37 = Method      #36.#151;       //  com/epam/efimova/basic/Outer$1LocalNested."<init>":(Lcom/epam/efimova/basic/Outer;Ljava/lang/Integer;)V
+const #38 = Method      #36.#152;       //  com/epam/efimova/basic/Outer$1LocalNested.m:(Ljava/lang/Integer;)V
+const #39 = class       #153;   //  com/epam/efimova/basic/Outer$Static
+const #40 = Method      #39.#113;       //  com/epam/efimova/basic/Outer$Static."<init>":()V
+const #41 = class       #154;   //  com/epam/efimova/basic/Outer$1
+const #42 = Method      #41.#113;       //  com/epam/efimova/basic/Outer$1."<init>":()V
+const #43 = class       #156;   //  com/epam/efimova/basic/IMyInter$MyClass
+const #44 = Method      #43.#113;       //  com/epam/efimova/basic/IMyInter$MyClass."<init>":()V
+const #45 = class       #158;   //  com/epam/efimova/basic/MyEnum$MyStaticClass
+const #46 = Method      #45.#113;       //  com/epam/efimova/basic/MyEnum$MyStaticClass."<init>":()V
+const #47 = String      #159;   //  str2
+const #48 = Field       #49.#160;       //  com/epam/efimova/basic/Outer.STR2:Ljava/lang/String;
+const #49 = class       #161;   //  com/epam/efimova/basic/Outer
+const #50 = Asciz       Inner;
+const #51 = Asciz       InnerClasses;
+const #52 = Asciz       Static;
+const #53 = Asciz       LocalNested;
+const #54 = Asciz       STR1;
+const #55 = Asciz       Ljava/lang/String;;
+const #56 = Asciz       STR2;
+const #57 = Asciz       STR3;
+const #58 = Asciz       ConstantValue;
+const #59 = String      #162;   //  str3
+const #60 = Asciz       STR5;
+const #61 = Asciz       STR4;
+const #62 = Asciz       <init>;
+const #63 = Asciz       ()V;
+const #64 = Asciz       Code;
+const #65 = Asciz       LineNumberTable;
+const #66 = Asciz       LocalVariableTable;
+const #67 = Asciz       this;
+const #68 = Asciz       Lcom/epam/efimova/basic/Outer;;
+const #69 = Asciz       methodnew;
+const #70 = Asciz       e;
+const #71 = Asciz       Ljava/lang/InstantiationException;;
+const #72 = Asciz       Ljava/lang/IllegalAccessException;;
+const #73 = Asciz       Ljava/lang/reflect/InvocationTargetException;;
+const #74 = Asciz       o;
+const #75 = Asciz       Ljava/lang/Object;;
+const #76 = Asciz       constructor;
+const #77 = Asciz       Ljava/lang/reflect/Constructor;;
+const #78 = Asciz       LocalVariableTypeTable;
+const #79 = Asciz       Ljava/lang/reflect/Constructor<*>;;
+const #80 = Asciz       StackMapTable;
+const #81 = class       #161;   //  com/epam/efimova/basic/Outer
+const #82 = class       #134;   //  java/lang/Object
+const #83 = class       #163;   //  java/lang/reflect/Constructor
+const #84 = class       #137;   //  java/lang/InstantiationException
+const #85 = class       #139;   //  java/lang/IllegalAccessException
+const #86 = class       #140;   //  java/lang/reflect/InvocationTargetException
+const #87 = Asciz       metod1;
+const #88 = Asciz       metod2;
+const #89 = Asciz       method;
+const #90 = Asciz       ()Ljava/lang/Object;;
+const #91 = Asciz       i1;
+const #92 = Asciz       Ljava/lang/Integer;;
+const #93 = Asciz       i2;
+const #94 = Asciz       localNested;
+const #95 = Asciz       Lcom/epam/efimova/basic/Outer$1LocalNested;;
+const #96 = Asciz       main;
+const #97 = Asciz       ([Ljava/lang/String;)V;
+const #98 = Asciz       args;
+const #99 = Asciz       [Ljava/lang/String;;
+const #100 = Asciz      aStatic;
+const #101 = Asciz      Lcom/epam/efimova/basic/Outer$Static;;
+const #102 = Asciz      iMyInter;
+const #103 = Asciz      Lcom/epam/efimova/basic/IMyInter;;
+const #104 = Asciz      myClass;
+const #105 = Asciz      MyClass;
+const #106 = Asciz      Lcom/epam/efimova/basic/IMyInter$MyClass;;
+const #107 = Asciz      myEnum;
+const #108 = Asciz      MyStaticClass;
+const #109 = Asciz      Lcom/epam/efimova/basic/MyEnum$MyStaticClass;;
+const #110 = Asciz      <clinit>;
+const #111 = Asciz      SourceFile;
+const #112 = Asciz      Outer.java;
+const #113 = NameAndType        #62:#63;//  "<init>":()V
+const #114 = Asciz      str1;
+const #115 = NameAndType        #54:#55;//  STR1:Ljava/lang/String;
+const #116 = Asciz      str5;
+const #117 = NameAndType        #60:#55;//  STR5:Ljava/lang/String;
+const #118 = Asciz      str4;
+const #119 = NameAndType        #61:#55;//  STR4:Ljava/lang/String;
+const #120 = NameAndType        #89:#90;//  method:()Ljava/lang/Object;
+const #121 = NameAndType        #164:#165;//  getClass:()Ljava/lang/Class;
+const #122 = class      #166;   //  java/lang/Class
+const #123 = NameAndType        #167:#168;//  getDeclaredConstructors:()[Ljava/lang/reflect/Constructor;
+const #124 = class      #169;   //  java/lang/System
+const #125 = NameAndType        #170:#171;//  out:Ljava/io/PrintStream;
+const #126 = Asciz      java/lang/StringBuilder;
+const #127 = Asciz      CONSTRUCTOR;
+const #128 = NameAndType        #172:#173;//  append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+const #129 = class      #163;   //  java/lang/reflect/Constructor
+const #130 = NameAndType        #174:#175;//  getName:()Ljava/lang/String;
+const #131 = NameAndType        #176:#175;//  toString:()Ljava/lang/String;
+const #132 = class      #177;   //  java/io/PrintStream
+const #133 = NameAndType        #178:#179;//  println:(Ljava/lang/String;)V
+const #134 = Asciz      java/lang/Object;
+const #135 = NameAndType        #180:#181;//  newInstance:([Ljava/lang/Object;)Ljava/lang/Object;
+const #136 = NameAndType        #178:#182;//  println:(Ljava/lang/Object;)V
+const #137 = Asciz      java/lang/InstantiationException;
+const #138 = NameAndType        #183:#63;//  printStackTrace:()V
+const #139 = Asciz      java/lang/IllegalAccessException;
+const #140 = Asciz      java/lang/reflect/InvocationTargetException;
+const #141 = Asciz      Outer static method1;
+const #142 = Asciz      com/epam/efimova/basic/Outer$Inner;
+const #143 = NameAndType        #62:#184;//  "<init>":(Lcom/epam/efimova/basic/Outer;Lcom/epam/efimova/basic/Outer$1;)V
+const #144 = Asciz      s;
+const #145 = NameAndType        #185:#186;//  access$102:(Lcom/epam/efimova/basic/Outer$Inner;Ljava/lang/String;)Ljava/lang/String;
+const #146 = Asciz      Outer method2;
+const #147 = NameAndType        #187:#188;//  access$100:(Lcom/epam/efimova/basic/Outer$Inner;)Ljava/lang/String;
+const #148 = class      #189;   //  java/lang/Integer
+const #149 = NameAndType        #190:#191;//  valueOf:(I)Ljava/lang/Integer;
+const #150 = Asciz      com/epam/efimova/basic/Outer$1LocalNested;
+const #151 = NameAndType        #62:#192;//  "<init>":(Lcom/epam/efimova/basic/Outer;Ljava/lang/Integer;)V
+const #152 = NameAndType        #193:#194;//  m:(Ljava/lang/Integer;)V
+const #153 = Asciz      com/epam/efimova/basic/Outer$Static;
+const #154 = Asciz      com/epam/efimova/basic/Outer$1;
+const #155 = class      #195;   //  com/epam/efimova/basic/IMyInter
+const #156 = Asciz      com/epam/efimova/basic/IMyInter$MyClass;
+const #157 = class      #196;   //  com/epam/efimova/basic/MyEnum
+const #158 = Asciz      com/epam/efimova/basic/MyEnum$MyStaticClass;
+const #159 = Asciz      str2;
+const #160 = NameAndType        #56:#55;//  STR2:Ljava/lang/String;
+const #161 = Asciz      com/epam/efimova/basic/Outer;
+const #162 = Asciz      str3;
+const #163 = Asciz      java/lang/reflect/Constructor;
+const #164 = Asciz      getClass;
+const #165 = Asciz      ()Ljava/lang/Class;;
+const #166 = Asciz      java/lang/Class;
+const #167 = Asciz      getDeclaredConstructors;
+const #168 = Asciz      ()[Ljava/lang/reflect/Constructor;;
+const #169 = Asciz      java/lang/System;
+const #170 = Asciz      out;
+const #171 = Asciz      Ljava/io/PrintStream;;
+const #172 = Asciz      append;
+const #173 = Asciz      (Ljava/lang/String;)Ljava/lang/StringBuilder;;
+const #174 = Asciz      getName;
+const #175 = Asciz      ()Ljava/lang/String;;
+const #176 = Asciz      toString;
+const #177 = Asciz      java/io/PrintStream;
+const #178 = Asciz      println;
+const #179 = Asciz      (Ljava/lang/String;)V;
+const #180 = Asciz      newInstance;
+const #181 = Asciz      ([Ljava/lang/Object;)Ljava/lang/Object;;
+const #182 = Asciz      (Ljava/lang/Object;)V;
+const #183 = Asciz      printStackTrace;
+const #184 = Asciz      (Lcom/epam/efimova/basic/Outer;Lcom/epam/efimova/basic/Outer$1;)V;
+const #185 = Asciz      access$102;
+const #186 = Asciz      (Lcom/epam/efimova/basic/Outer$Inner;Ljava/lang/String;)Ljava/lang/String;;
+const #187 = Asciz      access$100;
+const #188 = Asciz      (Lcom/epam/efimova/basic/Outer$Inner;)Ljava/lang/String;;
+const #189 = Asciz      java/lang/Integer;
+const #190 = Asciz      valueOf;
+const #191 = Asciz      (I)Ljava/lang/Integer;;
+const #192 = Asciz      (Lcom/epam/efimova/basic/Outer;Ljava/lang/Integer;)V;
+const #193 = Asciz      m;
+const #194 = Asciz      (Ljava/lang/Integer;)V;
+const #195 = Asciz      com/epam/efimova/basic/IMyInter;
+const #196 = Asciz      com/epam/efimova/basic/MyEnum;
+
+{
+public java.lang.String STR1;
+  Signature: Ljava/lang/String;
+
+
+public static java.lang.String STR2;
+  Signature: Ljava/lang/String;
+
+
+public static final java.lang.String STR3;
+  Signature: Ljava/lang/String;
+  Constant value: String str3
+
+public final java.lang.String STR5;
+  Signature: Ljava/lang/String;
+  Constant value: String str5
+
+public com.epam.efimova.basic.Outer();
+  Signature: ()V
+  Code:
+   Stack=2, Locals=1, Args_size=1
+   0:   aload_0
+   1:   invokespecial   #1; //Method java/lang/Object."<init>":()V
+   4:   aload_0
+   5:   ldc     #2; //String str1
+   7:   putfield        #3; //Field STR1:Ljava/lang/String;
+   10:  aload_0
+   11:  ldc     #4; //String str5
+   13:  putfield        #5; //Field STR5:Ljava/lang/String;
+   16:  aload_0
+   17:  ldc     #6; //String str4
+   19:  putfield        #7; //Field STR4:Ljava/lang/String;
+   22:  return
+  LineNumberTable:
+   line 8: 0
+   line 9: 4
+   line 12: 10
+   line 13: 16
+
+  LocalVariableTable:
+   Start  Length  Slot  Name   Signature
+   0      23      0    this       Lcom/epam/efimova/basic/Outer;
+
+
+void methodnew();
+  Signature: ()V
+  Code:
+   Stack=3, Locals=4, Args_size=1
+   0:   aload_0
+   1:   invokevirtual   #8; //Method method:()Ljava/lang/Object;
+   4:   astore_1
+   5:   aload_1
+   6:   invokevirtual   #9; //Method java/lang/Object.getClass:()Ljava/lang/Class;
+   9:   invokevirtual   #10; //Method java/lang/Class.getDeclaredConstructors:()[Ljava/lang/reflect/Constructor;
+   12:  iconst_0
+   13:  aaload
+   14:  astore_2
+   15:  getstatic       #11; //Field java/lang/System.out:Ljava/io/PrintStream;
+   18:  new     #12; //class java/lang/StringBuilder
+   21:  dup
+   22:  invokespecial   #13; //Method java/lang/StringBuilder."<init>":()V
+   25:  ldc     #14; //String CONSTRUCTOR
+   27:  invokevirtual   #15; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   30:  aload_2
+   31:  invokevirtual   #16; //Method java/lang/reflect/Constructor.getName:()Ljava/lang/String;
+   34:  invokevirtual   #15; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   37:  invokevirtual   #17; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+   40:  invokevirtual   #18; //Method java/io/PrintStream.println:(Ljava/lang/String;)V
+   43:  getstatic       #11; //Field java/lang/System.out:Ljava/io/PrintStream;
+   46:  aload_2
+   47:  iconst_0
+   48:  anewarray       #19; //class java/lang/Object
+   51:  invokevirtual   #20; //Method java/lang/reflect/Constructor.newInstance:([Ljava/lang/Object;)Ljava/lang/Object;
+   54:  invokevirtual   #21; //Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+   57:  goto    81
+   60:  astore_3
+   61:  aload_3
+   62:  invokevirtual   #23; //Method java/lang/InstantiationException.printStackTrace:()V
+   65:  goto    81
+   68:  astore_3
+   69:  aload_3
+   70:  invokevirtual   #25; //Method java/lang/IllegalAccessException.printStackTrace:()V
+   73:  goto    81
+   76:  astore_3
+   77:  aload_3
+   78:  invokevirtual   #27; //Method java/lang/reflect/InvocationTargetException.printStackTrace:()V
+   81:  return
+  Exception table:
+   from   to  target type
+    43    57    60   Class java/lang/InstantiationException
+
+    43    57    68   Class java/lang/IllegalAccessException
+
+    43    57    76   Class java/lang/reflect/InvocationTargetException
+
+  LineNumberTable:
+   line 27: 0
+   line 30: 5
+   line 31: 15
+   line 33: 43
+   line 40: 57
+   line 34: 60
+   line 35: 61
+   line 40: 65
+   line 36: 68
+   line 37: 69
+   line 40: 73
+   line 38: 76
+   line 39: 77
+   line 45: 81
+
+  LocalVariableTable:
+   Start  Length  Slot  Name   Signature
+   61      4      3    e       Ljava/lang/InstantiationException;
+   69      4      3    e       Ljava/lang/IllegalAccessException;
+   77      4      3    e       Ljava/lang/reflect/InvocationTargetException;
+   0      82      0    this       Lcom/epam/efimova/basic/Outer;
+   5      77      1    o       Ljava/lang/Object;
+   15      67      2    constructor       Ljava/lang/reflect/Constructor;
+
+  LocalVariableTypeTable: length = 0xC
+   00 01 00 0F 00 43 00 4C 00 4F 00 02
+  StackMapTable: number_of_entries = 4
+   frame_type = 255 /* full_frame */
+     offset_delta = 60
+     locals = [ class com/epam/efimova/basic/Outer, class java/lang/Object, class java/lang/reflect/Constructor ]
+     stack = [ class java/lang/InstantiationException ]
+   frame_type = 71 /* same_locals_1_stack_item */
+     stack = [ class java/lang/IllegalAccessException ]
+   frame_type = 71 /* same_locals_1_stack_item */
+     stack = [ class java/lang/reflect/InvocationTargetException ]
+   frame_type = 4 /* same */
+
+
+static void metod1();
+  Signature: ()V
+  Code:
+   Stack=2, Locals=0, Args_size=0
+   0:   getstatic       #11; //Field java/lang/System.out:Ljava/io/PrintStream;
+   3:   ldc     #28; //String Outer static method1
+   5:   invokevirtual   #18; //Method java/io/PrintStream.println:(Ljava/lang/String;)V
+   8:   return
+  LineNumberTable:
+   line 81: 0
+   line 82: 8
+
+
+void metod2();
+  Signature: ()V
+  Code:
+   Stack=6, Locals=1, Args_size=1
+   0:   new     #29; //class com/epam/efimova/basic/Outer$Inner
+   3:   dup
+   4:   aload_0
+   5:   aconst_null
+   6:   invokespecial   #30; //Method com/epam/efimova/basic/Outer$Inner."<init>":(Lcom/epam/efimova/basic/Outer;Lcom/epam/efimova/basic/Outer$1;)V
+   9:   ldc     #31; //String s
+   11:  invokestatic    #32; //Method com/epam/efimova/basic/Outer$Inner.access$102:(Lcom/epam/efimova/basic/Outer$Inner;Ljava/lang/String;)Ljava/lang/String;
+   14:  pop
+   15:  getstatic       #11; //Field java/lang/System.out:Ljava/io/PrintStream;
+   18:  new     #12; //class java/lang/StringBuilder
+   21:  dup
+   22:  invokespecial   #13; //Method java/lang/StringBuilder."<init>":()V
+   25:  ldc     #33; //String Outer method2
+   27:  invokevirtual   #15; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   30:  new     #29; //class com/epam/efimova/basic/Outer$Inner
+   33:  dup
+   34:  aload_0
+   35:  aconst_null
+   36:  invokespecial   #30; //Method com/epam/efimova/basic/Outer$Inner."<init>":(Lcom/epam/efimova/basic/Outer;Lcom/epam/efimova/basic/Outer$1;)V
+   39:  invokestatic    #34; //Method com/epam/efimova/basic/Outer$Inner.access$100:(Lcom/epam/efimova/basic/Outer$Inner;)Ljava/lang/String;
+   42:  invokevirtual   #15; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   45:  invokevirtual   #17; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+   48:  invokevirtual   #18; //Method java/io/PrintStream.println:(Ljava/lang/String;)V
+   51:  return
+  LineNumberTable:
+   line 85: 0
+   line 86: 15
+   line 87: 51
+
+  LocalVariableTable:
+   Start  Length  Slot  Name   Signature
+   0      52      0    this       Lcom/epam/efimova/basic/Outer;
+
+
+java.lang.Object method();
+  Signature: ()Ljava/lang/Object;
+  Code:
+   Stack=4, Locals=4, Args_size=1
+   0:   iconst_0
+   1:   invokestatic    #35; //Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+   4:   astore_1
+   5:   iconst_1
+   6:   invokestatic    #35; //Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+   9:   astore_2
+   10:  new     #36; //class com/epam/efimova/basic/Outer$1LocalNested
+   13:  dup
+   14:  aload_0
+   15:  aload_2
+   16:  invokespecial   #37; //Method com/epam/efimova/basic/Outer$1LocalNested."<init>":(Lcom/epam/efimova/basic/Outer;Ljava/lang/Integer;)V
+   19:  astore_3
+   20:  aload_3
+   21:  iconst_1
+   22:  invokestatic    #35; //Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+   25:  invokevirtual   #38; //Method com/epam/efimova/basic/Outer$1LocalNested.m:(Ljava/lang/Integer;)V
+   28:  aload_3
+   29:  areturn
+  LineNumberTable:
+   line 90: 0
+   line 91: 5
+   line 112: 10
+   line 113: 20
+   line 114: 28
+
+  LocalVariableTable:
+   Start  Length  Slot  Name   Signature
+   0      30      0    this       Lcom/epam/efimova/basic/Outer;
+   5      25      1    i1       Ljava/lang/Integer;
+   10      20      2    i2       Ljava/lang/Integer;
+   20      10      3    localNested       Lcom/epam/efimova/basic/Outer$1LocalNested;
+
+
+public static void main(java.lang.String[]);
+  Signature: ([Ljava/lang/String;)V
+  Code:
+   Stack=2, Locals=5, Args_size=1
+   0:   new     #39; //class com/epam/efimova/basic/Outer$Static
+   3:   dup
+   4:   invokespecial   #40; //Method com/epam/efimova/basic/Outer$Static."<init>":()V
+   7:   astore_1
+   8:   new     #41; //class com/epam/efimova/basic/Outer$1
+   11:  dup
+   12:  invokespecial   #42; //Method com/epam/efimova/basic/Outer$1."<init>":()V
+   15:  astore_2
+   16:  new     #43; //class com/epam/efimova/basic/IMyInter$MyClass
+   19:  dup
+   20:  invokespecial   #44; //Method com/epam/efimova/basic/IMyInter$MyClass."<init>":()V
+   23:  astore_3
+   24:  new     #45; //class com/epam/efimova/basic/MyEnum$MyStaticClass
+   27:  dup
+   28:  invokespecial   #46; //Method com/epam/efimova/basic/MyEnum$MyStaticClass."<init>":()V
+   31:  astore  4
+   33:  return
+  LineNumberTable:
+   line 119: 0
+   line 124: 8
+   line 135: 16
+   line 136: 24
+   line 137: 33
+
+  LocalVariableTable:
+   Start  Length  Slot  Name   Signature
+   0      34      0    args       [Ljava/lang/String;
+   8      26      1    aStatic       Lcom/epam/efimova/basic/Outer$Static;
+   16      18      2    iMyInter       Lcom/epam/efimova/basic/IMyInter;
+   24      10      3    myClass       Lcom/epam/efimova/basic/IMyInter$MyClass;
+   33      1      4    myEnum       Lcom/epam/efimova/basic/MyEnum$MyStaticClass;
+
+
+static {};
+  Signature: ()V
+  Code:
+   Stack=1, Locals=0, Args_size=0
+   0:   ldc     #47; //String str2
+   2:   putstatic       #48; //Field STR2:Ljava/lang/String;
+   5:   return
+  LineNumberTable:
+   line 10: 0
+
+
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.w3schools.com" xmlns="http://www.w3schools.com"
+	elementFormDefault="qualified">
+	<xs:element name="shop" type="ShopGoods" />
+	<xs:element name="categry" type="CategoryGoods" />
+	<xs:element name="subcategry" type="SubcategryGoods" />
+	<xs:element name="good" type="GoodsType" />
+	<xs:complexType name="ShopGoods">
+		<xs:sequence>
+			<xs:element ref="categry" maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CategoryGoods">
+		<xs:sequence>
+			<xs:element ref="subcategry" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute type="xs:string" name="id" use="optional" />
+		<xs:attribute type="xs:string" name="caption" use="optional" />
+	</xs:complexType>
+	<xs:complexType name="SubcategryGoods">
+		<xs:sequence>
+			<xs:element ref="good" maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute type="xs:string" name="id" use="optional" />
+		<xs:attribute type="xs:string" name="caption" use="optional" />
+	</xs:complexType>
+	<xs:complexType name="GoodsType">
+		<xs:sequence>
+			<xs:element type="xs:string" name="name" />
+			<xs:element type="xs:string" name="provider" />
+			<xs:element type="stringType" name="model" />
+			<xs:element type="dateType" name="dateofissue" />
+			<xs:element type="xs:string" name="color" />
+			<xs:element type="xs:decimal" name="price" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="stringType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Za-z]{2}[0-9]{3}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="dateType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-3][0-9]-[0-1][0-9]-[1-2][0,9][0-9][0-9]"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

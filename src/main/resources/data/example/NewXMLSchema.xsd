@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.epam.com/creditsystem"
+	xmlns:creditsystem="http://www.epam.com/creditsystem">
+	<xs:element name="Bank">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="bankName" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="credit"
+								maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:int"
+											name="initialSum" />
+										<xs:element type="xs:int"
+											name="finiteSum" />
+										<xs:element type="xs:byte"
+											name="interestRate" />
+										<xs:element type="xs:byte"
+											name="countMonth" />
+										<xs:element type="xs:int"
+											name="comission" />
+									</xs:sequence>
+									<xs:attribute type="xs:string"
+										name="type" use="optional" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute type="xs:string" name="title"
+							use="optional" />
+						<xs:attribute type="xs:string" name="caption"
+							use="optional" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
