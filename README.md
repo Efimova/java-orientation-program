@@ -21,14 +21,12 @@
 14.	Few classes in one file. How it is compiled?
 15.	Abstract class. Abstract class that does not have method with implementations. Abstract class without any methods.
 16.	Demonstrate usage of equals and hashCode.
-    a.
-    b.	Demonstrate default hashCode behavior
-17.
+    a.	Demonstrate default hashCode behavior
+17. Strings & Multithreading
     a.	Print symbols in utf-16 encoding.
     b.	Size of string in different encodings
     c.	Multithreading
 18.	Class Loaders. Order of loading classes. Class Loaders priority (how to invoke them). Load new type during runtime.
-19.
 20.	How the concurrent jars with different versions of the same class type will be loaded.
 21.	Annotations
     a.	Demonstrate usage of source,class and runtime annotations
@@ -40,7 +38,7 @@
 25.	Implement simple application and demonstrate practical usage of :wait, notify, notifyAll, sleep, synchronized blocks. Create a dead lock.
 26.	Synchronized static and non static methods. What the difference?
 27.	Demonstrate usage of volotile.
-28.
+28. Serializable
     a.	Serializable vs Externalizible
     b.	writeObject/readObject vs writeExternal/readExternal
     c.	Generate serialVersionUID , serialize object, change class, regenerate SVUID, deserialize object.
@@ -69,11 +67,10 @@
 ##Database
 34.	Demonstrate usage of self join
 35.	Demonstrate group by and having usage
-36.
-37.	Demonstrate usage of Packages and stored procedures
+36.	Demonstrate usage of Packages and stored procedures
     a.	Demonstrate usage stored procedure and stored function in sql query
     b.	How to return value from stored procedure and stored function
-38.	Using aggregation functions without group by
-39.	How to select distinct without using distinct keyword.
-40.	Demonstrate trigger
+37.	Using aggregation functions without group by
+38.	How to select distinct without using distinct keyword.
+39.	Demonstrate trigger
     a.	Demonstrate work of trigger when transaction has several insert and commit isn't executed yet
