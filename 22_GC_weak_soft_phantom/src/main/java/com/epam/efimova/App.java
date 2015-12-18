@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Hello world!
+ * нагружаем память и смотрим в VisualVM как нагржается и чиститься память
  */
 public class App {
     private Map<String, String> map = new HashMap<>();

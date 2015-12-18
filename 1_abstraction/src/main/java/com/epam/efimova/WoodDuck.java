@@ -10,13 +10,4 @@ public class WoodDuck extends Duck {
         System.out.println("Show wood duck");
     }
 
-    @Override
-    public void fly() {
-        throw new UnsupportedOperationException();
-    }
-
-    @Override
-    public void quack() {
-        throw new UnsupportedOperationException();
-    }
 }

@@ -83,9 +83,9 @@ public abstract class Parser {
 
 	}
 
-	public static void main(String[] args) {
-		LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
-		 StatusPrinter.print(lc);
-		getElementsDOM();
-	}
+//	public static void main(String[] args) {
+//		LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
+//		 StatusPrinter.print(lc);
+//		getElementsDOM();
+//	}
 }

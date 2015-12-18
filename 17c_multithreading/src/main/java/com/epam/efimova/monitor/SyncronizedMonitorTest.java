@@ -61,7 +61,7 @@ class TestB {
             testA.getList().add("any" + ++i);
         }
         for (int j = 0; j < testA.getList().size(); j++)
-            System.out.print(testA.getList().get(j));
+            System.out.print(testA.getList().get(j)+ " ");
         System.out.println();
     }
 }

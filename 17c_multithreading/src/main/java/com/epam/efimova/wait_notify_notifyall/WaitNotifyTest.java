@@ -10,12 +10,11 @@ public class WaitNotifyTest {
         Waiter waiter = new Waiter(msg);
         Thread t1 = new Thread(waiter, "waiter");
         t1.start();
-        t1.interrupt();
+        //t1.interrupt();
 
         Waiter waiter1 = new Waiter(msg);
         Thread t2 = new Thread(waiter1, "waiter1");
         t2.start();
-        t1.interrupt();
         Notifier notifier = new Notifier(msg);
         Thread t3 = new Thread(notifier, "notifier");
         t3.start();

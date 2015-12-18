@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.epam.efimova.classsloader.CustomClassLoader;
+
 
 @Controller
 public class XmlProcessingController {
@@ -22,7 +22,7 @@ public class XmlProcessingController {
 @RequestMapping(value="/xml", method=RequestMethod.GET)
 public String xml(){
 	try {
-		CustomClassLoader.main(new String[]{"Foo.class"});
+	//	CustomClassLoader.main(new String[]{"Foo.class"});
 	} catch (Exception e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();

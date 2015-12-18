@@ -13,7 +13,6 @@ class SchedDemo {
 
 class CalcThread extends Thread {
     CalcThread(String name) {
-        // Pass name to Thread layer.
         super(name);
     }
 
@@ -34,7 +33,7 @@ class CalcThread extends Thread {
 
     public void run() {
         for (int i = 0; i < 5; i++)
-            System.out.println(getName() + ": " + calcPI());
+            System.out.println(i+" "+getName() + ": " + calcPI());
     }
 }
 
