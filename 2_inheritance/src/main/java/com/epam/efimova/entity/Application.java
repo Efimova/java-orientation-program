@@ -13,7 +13,6 @@ public abstract class Application {
     public Application() {
         setpId(ProcessorIDGeneration.getId());
         logger.info("Process ID = " + getpId().toString());
-        launch();
     }
 
     public Integer getpId() {
@@ -24,10 +23,6 @@ public abstract class Application {
         this.pId = pId;
     }
 
-    protected abstract void launch();
-
-
-    public abstract void close();
 
     static class ProcessorIDGeneration {
         private static Integer currentId = 1000;

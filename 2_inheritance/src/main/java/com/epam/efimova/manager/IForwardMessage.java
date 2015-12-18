@@ -1,4 +1,4 @@
-package com.epam.efimova.entity.messenger;
+package com.epam.efimova.manager;
 
 import com.epam.efimova.entity.Contact;
 import com.epam.efimova.entity.Message;

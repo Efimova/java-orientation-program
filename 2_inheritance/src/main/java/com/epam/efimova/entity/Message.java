@@ -6,10 +6,11 @@ import java.util.Date;
  * Created by Anna_Efimova on 12/7/2015.
  */
 public class Message {
-    Integer id;
-    String textMessage;
-    Date date;
-    Contact contact;
+    private Integer id;
+    private String textMessage;
+    private Date date;
+    private Contact contact;
+    private String status;
 
     public Message(Contact contact, String textMessage) {
         setContact(contact);
@@ -47,4 +48,13 @@ public class Message {
     public void setContact(Contact contact) {
         this.contact = contact;
     }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getStatus() {
+        return status;
+    }
 }
+

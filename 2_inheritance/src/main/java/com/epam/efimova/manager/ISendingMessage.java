@@ -1,4 +1,4 @@
-package com.epam.efimova.entity.messenger;
+package com.epam.efimova.manager;
 
 import com.epam.efimova.entity.Message;
 
@@ -8,6 +8,5 @@ import com.epam.efimova.entity.Message;
 public interface ISendingMessage {
     void send(Message message);
 
-    String getStatus(Integer id);
-
+    String checkMessageStatus(Message message);
 }

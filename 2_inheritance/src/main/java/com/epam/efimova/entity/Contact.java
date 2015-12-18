@@ -14,7 +14,16 @@ public class Contact {
     }
 
     public Contact(String userName, String fullName) {
+        setUserName(userName);
+        setFullName(fullName);
 
+    }
+
+    public Contact(String userName, String fullName, String statusUser, String personalDetail) {
+        setUserName(userName);
+        setFullName(fullName);
+        setStatusUser(statusUser);
+        setPersonalDetail(personalDetail);
     }
 
     public String getUserName() {
@@ -23,6 +32,7 @@ public class Contact {
 
     public void setUserName(String userName) {
         this.userName = userName;
+
     }
 
     public String getFullName() {
@@ -47,5 +57,10 @@ public class Contact {
 
     public void setPersonalDetail(String personalDetail) {
         this.personalDetail = personalDetail;
+    }
+
+    @Override
+    public String toString() {
+        return getUserName() + "/" + getFullName() + "/" + getPersonalDetail() + "/" + getStatusUser();
     }
 }
