@@ -13,20 +13,26 @@ import org.slf4j.LoggerFactory;
 
 
 /**
- * Hello world!
+ * Emulate the application launching, ex. skype launching.
+ * Controller - emulate the work of Servlet, build on similar like Struts actions
+ * Manager - layer responsible for logic of application
+ * Model - entities stored the state of object. Bild on the encapsulation principe
+ * View - is the main method in app.
  */
 public class App {
     private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
 
     public static void main(String[] args) {
+        //Emulate starting the skype app
         ApplicationController applicationController = ApplicationController.getInstance();
         Messenger messenger = (Messenger) applicationController.doStart(ApplicationTypes.SKYPE);
 
+
         SkypeController skypeController = SkypeController.getInstance((SkypeMessenger) messenger);
-        ContactManager contactManager = ContactManager.getInstance();
         skypeController.doLogin();
         LOGGER.info(skypeController.getPersonalInfo());
 
+        ContactManager contactManager = ContactManager.getInstance();
         Contact toContact = contactManager.getByName("AnyUserName");
         skypeController.establishChat(toContact);
 
