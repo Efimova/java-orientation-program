@@ -23,7 +23,7 @@ public class ApplicationController {
         }
         return instance;
     }
-
+//TODO вынести это
     public Application doStart(ApplicationTypes types) {
         IApplicationManager manager = null;
         switch (types) {

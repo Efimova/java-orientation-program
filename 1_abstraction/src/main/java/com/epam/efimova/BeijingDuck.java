@@ -5,8 +5,8 @@ package com.epam.efimova;
  */
 public class BeijingDuck extends Duck {
     public BeijingDuck() {
-        quackable = new Quack();
-        flyable = new FlyWithWings();
+//        quackable = new Quack();
+//        flyable = new FlyWithWings();
     }
 
     @Override

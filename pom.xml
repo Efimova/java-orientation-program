@@ -6,16 +6,19 @@
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
+        <module>1_abstraction</module>
+        <module>2_inheritance</module>
         <module>5_constr_methods</module>
         <module>6_variables</module>
         <module>7_overriding</module>
-        <module>7_overloading</module>
-        <module>1_abstraction</module>
-        <module>2_inheritance</module>
+        <module>8_overloading</module>
+
         <module>13_diff_interface</module>
         <module>14_few_classes</module>
         <module>17c_multithreading</module>
         <module>17a_encoding</module>
+        <module>22_GC_weak_soft_phantom</module>
+        <module>j2ee</module>
     </modules>
     <name>po Maven Webapp</name>
     <url>http://maven.apache.org</url>

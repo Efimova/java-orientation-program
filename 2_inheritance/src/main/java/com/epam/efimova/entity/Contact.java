@@ -19,6 +19,7 @@ public class Contact {
 
     }
 
+    //TODO think about using setters
     public Contact(String userName, String fullName, String statusUser, String personalDetail) {
         setUserName(userName);
         setFullName(fullName);

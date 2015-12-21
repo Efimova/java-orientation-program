@@ -36,10 +36,9 @@ public class TestA extends TestB {
 
         // Неправильно использовать вызов другого конструктора не первой строкой
         this();
-
         LOGGER.info("Constructor with parameter is starting.... ");
         this.testStr = str;
         LOGGER.info("Constructor is setting up the property testStr.... ");
-        throw new IOException("IOException is invoked in the constructor");
+        //throw new IOException("IOException is invoked in the constructor");
     }
 }

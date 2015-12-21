@@ -6,9 +6,9 @@ import java.util.List;
  * Created by Anna_Efimova on 12/7/2015.
  */
 public abstract class Messenger extends Application {
-    public Message message;
-    public List<Contact> contactList;
-    public List<Message> historyMesseges;
+    private Message message;
+    private List<Contact> contactList;
+    private List<Message> historyMesseges;
 
 
     public Message getMessage() {

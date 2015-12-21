@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
  * Emulate the application launching, ex. skype launching.
  * Controller - emulate the work of Servlet, build on similar like Struts actions
  * Manager - layer responsible for logic of application
- * Model - entities stored the state of object. Bild on the encapsulation principe
+ * Model - entities stored the state of object. Build on the encapsulation principe
  * View - is the main method in app.
  */
 public class App {
