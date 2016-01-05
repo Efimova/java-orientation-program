@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epam>
+    <positions description="software engineering">
+        <position level="Level 1">
+            <job_title>Junior Software Developer</job_title>
+            <item1 desc="Development Experience and Knowledge">Some experience of programming languages</item1>
+            <item2 desc="Software Process Knowledge">Not expected to have knowledge or experience of the software
+                development processes
+            </item2>
+            <item3 desc="Design and Documentation Skills">Able to read and understand project and requirement
+                documentation
+            </item3>
+            <item4 desc="Roles Played on a Project">Plays the Developer role</item4>
+            <item5 desc="Reliability">Expected to work effectively under supervision</item5>
+            <item6 desc="Quality">No specific expectations regarding quality</item6>
+            <item7 desc="Customer Relations">Not expected to deal directly with customers</item7>
+            <item8 desc="English Language Ability">B1</item8>
+            <item9 desc="Language Level in the Customer's Communication Language">Able to read and understand the
+                Customer's Communication Language
+            </item9>
+        </position>
+        <position level="Level 2">
+            <job_title>Software Developer</job_title>
+            <item1 desc="Development Experience and Knowledge">At least 1 year of relevant development experience
+            </item1>
+            <item2 desc="Software Process Knowledge">Expected to be able to follow a defined software development
+                process
+            </item2>
+            <item3 desc="Design and Documentation Skills">Able to read and understand project and requirement
+                documentation; able to create documentation describing his/her code.
+            </item3>
+            <item4 desc="Roles Played on a Project">Plays the Developer role</item4>
+            <item5 desc="Reliability">Expected to implement functionality without direct supervision</item5>
+            <item6 desc="Quality">Must show a sense of responsibility for the quality of the code written by him/her
+            </item6>
+            <item7 desc="Customer Relations">Not expected to deal directly with customers</item7>
+            <item8 desc="English Language Ability">B1</item8>
+            <item9 desc="Language Level in the Customer's Communication Language">Able to read and write the Customer's
+                Communication Language and have some speaking ability
+            </item9>
+        </position>
+        <position level="Level 3">
+            <job_title>Senior Software Developer</job_title>
+            <item1 desc="Development Experience and Knowledge">At least 3 years of relevant development experience, including UML, Modeling and Design skills</item1>
+            <item2 desc="Software Process Knowledge">Expected to be able to follow and understand a defined software development process
+            </item2>
+            <item3 desc="Design and Documentation Skills">Able to read and understand project and requirement documentation; able to create design, technical and project documentation including high-quality documentation of his/her code
+            </item3>
+            <item4 desc="Roles Played on a Project">Plays the Key Developer and Software Architect roles. May sometimes play Development Team Lead and Project Coordinator role</item4>
+            <item5 desc="Reliability">Expected to be self-managing, implement functionality without supervision and test his/her work thoroughly using test cases</item5>
+            <item6 desc="Quality">Creates deliverables in good quality</item6>
+            <item7 desc="Customer Relations">Expected to participate in phone conferences; be interviewed by customers; visit customers with supervision</item7>
+            <item8 desc="English Language Ability">B2</item8>
+            <item9 desc="Language Level in the Customer's Communication Language">Comfortably able to read and write and speak the Customer's Communication Language</item9>
+        </position>
+    </positions>
+
+
+</epam>

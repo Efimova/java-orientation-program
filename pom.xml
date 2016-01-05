@@ -19,6 +19,7 @@
         <module>17a_encoding</module>
         <module>22_GC_weak_soft_phantom</module>
         <module>j2ee</module>
+        <module>30_XML_parsers</module>
     </modules>
     <name>po Maven Webapp</name>
     <url>http://maven.apache.org</url>

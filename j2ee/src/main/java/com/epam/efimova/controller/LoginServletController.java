@@ -21,9 +21,9 @@ public class LoginServletController extends HttpServlet {
     }
 
     void process(HttpServletRequest req, HttpServletResponse resp) {
-        System.out.println(req.toString());
+        System.out.println("LoginServletController");
         try {
-            req.getRequestDispatcher("index.jsp").forward(req, resp);
+            req.getRequestDispatcher("pages/logon.jsp").forward(req, resp);
         } catch (ServletException e) {
             e.printStackTrace();
         } catch (IOException e) {
